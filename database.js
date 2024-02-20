@@ -1,8 +1,8 @@
 const Sequlize = require('sequelize');
 
-const sequelize = new Sequlize('DB', 'root', 'Azure123', {
-    host: '52.151.251.221',
-    dialect: 'mysql',
+const sequelize = new Sequlize('azuresql', 'database', 'Jaideep@123456', {
+    host: 'servernodeazure.database.windows.net,
+    dialect: 'mssql',
     pool: {
         max: 5,
         min: 0,
